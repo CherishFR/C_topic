@@ -1,0 +1,38 @@
+"E:\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\C_topic\14C_链表操作
+-- The C compiler identification is GNU 8.1.0
+-- Check for working C compiler: E:/mingw64/bin/gcc.exe
+-- Check for working C compiler: E:/mingw64/bin/gcc.exe -- broken
+CMake Error at E:/CLion 2018.3.4/bin/cmake/win/share/cmake-3.13/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "E:/mingw64/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: D:/C_topic/14C_閾捐〃鎿嶄綔/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"E:/mingw64/bin/mingw32-make.exe" "cmTC_54c97/fast"
+    E:/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_54c97.dir\build.make CMakeFiles/cmTC_54c97.dir/build
+    mingw32-make.exe[1]: Entering directory 'D:/C_topic/14C_閾捐〃鎿嶄綔/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_54c97.dir/testCCompiler.c.obj
+    E:\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_54c97.dir\testCCompiler.c.obj   -c D:\C_topic\14C_闁炬崘銆冮幙宥勭稊\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    gcc.exe: error: D:\C_topic\14C_闁炬崘銆冮幙宥勭稊\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    mingw32-make.exe[1]: *** [CMakeFiles\cmTC_54c97.dir\build.make:65: CMakeFiles/cmTC_54c97.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'D:/C_topic/14C_閾捐〃鎿嶄綔/cmake-build-debug/CMakeFiles/CMakeTmp'
+    mingw32-make.exe: *** [Makefile:120: cmTC_54c97/fast] Error 2
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/C_topic/14C_閾捐〃鎿嶄綔/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "D:/C_topic/14C_閾捐〃鎿嶄綔/cmake-build-debug/CMakeFiles/CMakeError.log".
