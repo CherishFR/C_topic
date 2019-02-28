@@ -1,0 +1,16 @@
+"E:\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\C_topic\22C_fgets&fputs
+-- The C compiler identification is GNU 8.1.0
+-- Check for working C compiler: E:/mingw64/bin/gcc.exe
+-- Check for working C compiler: E:/mingw64/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  The target name "22C_fgets&fputs" is reserved or not valid for certain
+  CMake features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/C_topic/22C_fgets&fputs/cmake-build-debug/CMakeFiles/CMakeOutput.log".
