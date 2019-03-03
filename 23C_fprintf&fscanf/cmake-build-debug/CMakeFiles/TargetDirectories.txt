@@ -1,0 +1,3 @@
+D:/C_topic/23C_fprintf&fscanf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/C_topic/23C_fprintf&fscanf/cmake-build-debug/CMakeFiles/23C_fprintf_fscanf.dir
+D:/C_topic/23C_fprintf&fscanf/cmake-build-debug/CMakeFiles/edit_cache.dir

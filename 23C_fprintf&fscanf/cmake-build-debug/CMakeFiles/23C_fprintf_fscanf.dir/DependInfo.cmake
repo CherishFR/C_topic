@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/C_topic/18C_/func.c" "D:/C_topic/18C_/cmake-build-debug/CMakeFiles/18C_.dir/func.c.obj"
-  "D:/C_topic/18C_/main.c" "D:/C_topic/18C_/cmake-build-debug/CMakeFiles/18C_.dir/main.c.obj"
+  "D:/C_topic/23C_fprintf&fscanf/main.c" "D:/C_topic/23C_fprintf&fscanf/cmake-build-debug/CMakeFiles/23C_fprintf_fscanf.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

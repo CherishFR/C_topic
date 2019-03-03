@@ -58,45 +58,45 @@ RM = "E:\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\C_topic\18C_
+CMAKE_SOURCE_DIR = "D:\C_topic\23C_fprintf&fscanf"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\C_topic\18C_\cmake-build-debug
+CMAKE_BINARY_DIR = "D:\C_topic\23C_fprintf&fscanf\cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/18C_.dir
+# Target rules for target CMakeFiles/23C_fprintf_fscanf.dir
 
 # All Build rule for target.
-CMakeFiles/18C_.dir/all:
-	$(MAKE) -f CMakeFiles\18C_.dir\build.make CMakeFiles/18C_.dir/depend
-	$(MAKE) -f CMakeFiles\18C_.dir\build.make CMakeFiles/18C_.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C_topic\18C_\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target 18C_"
-.PHONY : CMakeFiles/18C_.dir/all
+CMakeFiles/23C_fprintf_fscanf.dir/all:
+	$(MAKE) -f CMakeFiles\23C_fprintf_fscanf.dir\build.make CMakeFiles/23C_fprintf_fscanf.dir/depend
+	$(MAKE) -f CMakeFiles\23C_fprintf_fscanf.dir\build.make CMakeFiles/23C_fprintf_fscanf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\C_topic\23C_fprintf&fscanf\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target 23C_fprintf_fscanf"
+.PHONY : CMakeFiles/23C_fprintf_fscanf.dir/all
 
 # Include target in all.
-all: CMakeFiles/18C_.dir/all
+all: CMakeFiles/23C_fprintf_fscanf.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/18C_.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_topic\18C_\cmake-build-debug\CMakeFiles 3
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/18C_.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_topic\18C_\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/18C_.dir/rule
+CMakeFiles/23C_fprintf_fscanf.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C_topic\23C_fprintf&fscanf\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/23C_fprintf_fscanf.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C_topic\23C_fprintf&fscanf\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/23C_fprintf_fscanf.dir/rule
 
 # Convenience name for target.
-18C_: CMakeFiles/18C_.dir/rule
+23C_fprintf_fscanf: CMakeFiles/23C_fprintf_fscanf.dir/rule
 
-.PHONY : 18C_
-
-# clean rule for target.
-CMakeFiles/18C_.dir/clean:
-	$(MAKE) -f CMakeFiles\18C_.dir\build.make CMakeFiles/18C_.dir/clean
-.PHONY : CMakeFiles/18C_.dir/clean
+.PHONY : 23C_fprintf_fscanf
 
 # clean rule for target.
-clean: CMakeFiles/18C_.dir/clean
+CMakeFiles/23C_fprintf_fscanf.dir/clean:
+	$(MAKE) -f CMakeFiles\23C_fprintf_fscanf.dir\build.make CMakeFiles/23C_fprintf_fscanf.dir/clean
+.PHONY : CMakeFiles/23C_fprintf_fscanf.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/23C_fprintf_fscanf.dir/clean
 
 .PHONY : clean
 

@@ -1,3 +1,0 @@
-D:/C_topic/18C_/cmake-build-debug/CMakeFiles/18C_.dir
-D:/C_topic/18C_/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C_topic/18C_/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -10,8 +10,9 @@ int main(int argc, char* argv[]) {
     if (NULL == fp){
         perror("sopen");
     }
-    while (NULL!=fgets(buf, sizeof(buf)-1,fp)){
-        printf("%s",buf);
-    }
+//    while (NULL!=fgets(buf, sizeof(buf)-1,fp)){
+//        printf("%s",buf);
+//    }
+    fputs("world",fp);
     return 0;
 }
